@@ -56,7 +56,7 @@ function processEntry(snapshot) {
   }
 
 function openGateUsingOutgoingCall() {
-    const voiceUrl = 'http://api.slagboom.michaelschilling.com/voice/default-message';
+    const voiceUrl = 'https://api.michaelschilling.com/voice/default-message';
 
     return client.calls.create({
       url: voiceUrl,
